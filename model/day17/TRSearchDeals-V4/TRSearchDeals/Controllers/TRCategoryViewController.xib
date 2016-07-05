@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TRCategoryViewController">
+            <connections>
+                <outlet property="mainTableView" destination="i9V-l5-kIf" id="ujE-Mc-EBW"/>
+                <outlet property="subTableView" destination="P36-mC-mTs" id="8sb-L0-hvM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="560"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="i9V-l5-kIf" userLabel="mainTable View">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="560"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="TME-NK-pz1"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="lDZ-56-f1l"/>
+                        <outlet property="delegate" destination="-1" id="bGV-gj-f4U"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="P36-mC-mTs" userLabel="subTable View">
+                    <rect key="frame" x="160" y="0.0" width="160" height="560"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="GGv-il-gKP"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ZZJ-xb-wgb"/>
+                        <outlet property="delegate" destination="-1" id="BOR-GO-OVA"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="i9V-l5-kIf" secondAttribute="bottom" id="3PE-kK-ujv"/>
+                <constraint firstItem="P36-mC-mTs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="FSj-MZ-scS"/>
+                <constraint firstItem="i9V-l5-kIf" firstAttribute="width" secondItem="P36-mC-mTs" secondAttribute="width" id="Ny1-dN-u7N"/>
+                <constraint firstItem="i9V-l5-kIf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="afE-Ca-ujI"/>
+                <constraint firstAttribute="bottom" secondItem="P36-mC-mTs" secondAttribute="bottom" id="n0g-BV-ibK"/>
+                <constraint firstAttribute="trailing" secondItem="P36-mC-mTs" secondAttribute="trailing" id="vg7-vq-N78"/>
+                <constraint firstItem="i9V-l5-kIf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="y7L-yk-7pp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

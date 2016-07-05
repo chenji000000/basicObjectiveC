@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wao-oL-Txg">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aircraft.png" translatesAutoresizingMaskIntoConstraints="NO" id="I98-lN-Kiw">
+                                <rect key="frame" x="265" y="461" width="70" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="6qQ-H9-a0Z"/>
+                                    <constraint firstAttribute="height" constant="89" id="d72-d3-ieM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="I98-lN-Kiw" secondAttribute="centerX" id="eXf-YC-4RV"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="I98-lN-Kiw" secondAttribute="bottom" constant="50" id="occ-FN-g9J"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomSpaceConstraint" destination="occ-FN-g9J" id="HrI-G1-oy0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Pan Green View Controller-->
+        <scene sceneID="r7l-l3-ryH">
+            <objects>
+                <viewController id="wao-oL-Txg" customClass="PanGreenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ubR-CV-3d0"/>
+                        <viewControllerLayoutGuide type="bottom" id="hRN-ez-LdY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Ow-kd-TaD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcY-OQ-0Jr">
+                                <rect key="frame" x="30" y="50" width="540" height="160"/>
+                                <color key="backgroundColor" red="0.58431375029999999" green="0.99607849120000003" blue="0.23529413339999999" alpha="1" colorSpace="deviceRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="Scv-wi-e8t"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Eqq-7h-bbr" appends="YES" id="da2-Pi-a2o"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DcY-OQ-0Jr" secondAttribute="trailing" constant="30" id="8In-Ir-gpg"/>
+                            <constraint firstItem="DcY-OQ-0Jr" firstAttribute="top" secondItem="ubR-CV-3d0" secondAttribute="bottom" constant="30" id="ARG-AF-LFV"/>
+                            <constraint firstItem="DcY-OQ-0Jr" firstAttribute="leading" secondItem="4Ow-kd-TaD" secondAttribute="leading" constant="30" id="Itw-NB-082"/>
+                            <constraint firstItem="hRN-ez-LdY" firstAttribute="top" secondItem="DcY-OQ-0Jr" secondAttribute="bottom" constant="402" id="jVl-Kb-P8A"/>
+                            <constraint firstItem="DcY-OQ-0Jr" firstAttribute="top" secondItem="4Ow-kd-TaD" secondAttribute="top" constant="30" id="o5U-UU-ju2"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="o5U-UU-ju2"/>
+                                <exclude reference="jVl-Kb-P8A"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="topConstraint" destination="ARG-AF-LFV" id="ojG-MY-5RZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jir-gx-yzL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Eqq-7h-bbr">
+                    <connections>
+                        <action selector="moveGreenView:" destination="wao-oL-Txg" id="NDL-RL-mIK"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1153" y="415"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Aircraft.png" width="140" height="178"/>
+    </resources>
+</document>

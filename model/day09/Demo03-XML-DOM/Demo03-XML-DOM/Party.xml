@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Party>
+    <Player>
+        <name>TaylorSwift</name>
+        <level>1</level>
+        <class>Pop</class>
+    </Player>
+    <Player>
+        <name>LinkinPark</name>
+        <level>2</level>
+        <class>Group</class>
+    </Player>
+    <Player>
+        <name>Avril</name>
+        <level>3</level>
+        <class>Pop</class>
+    </Player>
+</Party>

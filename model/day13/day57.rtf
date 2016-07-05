@@ -1,0 +1,137 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 STHeitiSC-Light;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red196\green26\blue22;\red92\green38\blue153;\red170\green13\blue145;
+\red38\green71\blue75;\red13\green101\blue100;\red242\green242\blue242;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17240\viewh18100\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs72 \cf0 Day13:\
+
+\f1 \'ce\'ca\'cc\'e21\'a3\'ba
+\f0 \
+TMMessage/Asset\
+TMMessage/xxx.h/.m\
+
+\f1 \'c8\'b1\'c9\'d9
+\f0 xxx.json
+\f1 \'ce\'c4\'bc\'fe
+\f0 \
+
+\f1 \'ce\'ca\'cc\'e2
+\f0 2\
+URL
+\f1 \'b2\'bb\'c4\'dc\'d3\'d0\'bf\'d5\'b8\'f1
+\f0 \
+\
+\
+
+\f1 \'d0\'c2\'c4\'da\'c8\'dd
+\f0 \
+TRWeatherForecast V2
+\f1 \'b9\'a6\'c4\'dc
+\f0 :\
+1.
+\f1 \'bd\'ab\'bd\'e2\'ce\'f6\'ba\'c3\'b5\'c4\'ca\'fd\'be\'dd\'a3\'a8hourlyArray/dailyArray\'a3\'a9\'b8\'b3\'d6\'b5\'b8\'f8cell\
+2.\'bd\'e2\'ce\'f6\'cd\'b7\'b2\'bf\'ca\'d3\'cd\'bc\'d0\'e8\'d2\'aa\'b5\'c4\'ca\'fd\'be\'dd\
+a.\'d4\'daTRWeather.h\'d6\'d0\'cc\'ed\'bc\'d3\'bd\'e2\'ce\'f6\'b7\'bd\'b7\'a8\
++(id)weatherWithHeaderViewDic:(NSDictionary *)jsonDic;\
+3.\'bb\'d8\'b5\'bd\'d6\'f7\'cf\'df\'b3\'cc\'b8\'fc\'d0\'c2\'cd\'b7\'b2\'bf\'ca\'d3\'cd\'bc\'b5\'c45\'b8\'f6\'bf\'d8\'bc\'fe
+\f0 \
+\
+TRWeatherForecast V3
+\f1 \'b9\'a6\'c4\'dc
+\f0 :\
+1.
+\f1 \'ca\'b9\'d3\'c3
+\f0 NSOperation
+\f1 \'b5\'c4\'b7\'bd\'ca\'bd\'c0\'b4\'cf\'c2\'d4\'d8\'cd\'bc\'c6\'ac\'a3\'ac\'b2\'a2\'b8\'b3\'d6\'b5\'b8\'f8
+\f0 cell
+\f1 \'b5\'c4
+\f0 image\
+2.
+\f1 \'ca\'b5\'cf\'d6\'cd\'bc\'c6\'ac\'bb\'ba\'b4\'e6\'b5\'c4\'d4\'ad\'c0\'ed
+\f0 \
+3.
+\f1 \'ca\'b9\'d3\'c3\'b5\'da\'c8\'fd\'b7\'bd\'bf\'aa\'d4\'b4\'bf\'e2SDWebImage\'c0\'b4\'cc\'e6\'bb\'bb\'b5\'da\'ce\'e5\'b2\'bd\
+4.\'cc\'ed\'bc\'d3\'b6\'a8\'ce\'bb\'b9\'a6\'c4\'dc\'a3\'ac\'cd\'a8\'b9\'fd\'d3\'c3\'bb\'a7\'b5\'c4\'ce\'bb\'d6\'c3\'c0\'b4\'cd\'c6\'cb\'cd\'d3\'c3\'bb\'a7\'cb\'f9\'d4\'da\'b3\'c7\'ca\'d0\'b5\'c4\'ca\'fd\'be\'dd\
+a.\'b5\'a5\'b4\'bf\'b6\'a8\'ce\'bb\'d3\'c3\'bb\'a7\'b9\'a6\'c4\'dc->\'c7\'eb\'c7\'f3\'cc\'ec\'c6\'f8\'ca\'fd\'be\'dd\
+\pard\tx1733\pardeftab1733\pardirnatural
+
+\f2 \cf2 \CocoaLigature0 http://api.worldweatheronline.com/free/v2/weather.ashx?q=39.123,116.456&num_of_days=5&format=json&tp=6&key=23d22bdd0202032f73c9c3e1851dd
+\f0 \cf0 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+
+\f1 cell\'cd\'bc\'c6\'ac\'bc\'d3\'d4\'d8\'cf\'b8\'bd\'da\'a3\'ba\
+a.\'ca\'b9\'d3\'c3\'d7\'d3\'cf\'df\'b3\'cc\'c0\'b4\'cf\'c2\'d4\'d8\'cd\'bc\'c6\'ac\'a3\'a8\'b7\'c0\'d6\'b9\'d7\'e8\'c8\'fb\'d6\'f7\'cf\'df\'b3\'cc\'a3\'a9\
+b.\'d0\'e8\'d2\'aa\'ca\'b9\'d3\'c3\'d5\'bc\'ce\'bb\'cd\'bc\'c6\'ac\'c0\'b4\'ca\'b5\'cf\'d6\'d5\'bc\'be\'ddcell\'b5\'c4imageView\'b5\'c4\'ce\'bb\'d6\'c3\
+c.\'d0\'e8\'d2\'aa\'ca\'b9\'d3\'c3\'cd\'bc\'c6\'ac\'bb\'ba\'b4\'e6\'c0\'b4\'b7\'c0\'d6\'b9\'cd\'bc\'c6\'ac\'d6\'d8\'b8\'b4\'cf\'c2\'d4\'d8\'b5\'c4\'ce\'ca\'cc\'e2\
+\
+\pard\tx1444\pardeftab1444\pardirnatural
+
+\f2\fs60 \cf0 \CocoaLigature0 - (\cf3 UITableViewCell\cf0  *)tableView:(\cf3 UITableView\cf0  *)tableView cellForRowAtIndexPath:(\cf3 NSIndexPath\cf0  *)indexPath \{\
+ //
+\f1 \'ca\'b9\'d3\'c3\'d7\'d3\'cf\'df\'b3\'cc\'cf\'c2\'d4\'d8\'cd\'bc\'c6\'ac(NSOperation/\'d2\'ec\'b2\'bd\'d6\'b4\'d0\'d0)
+\f2 \
+ [\cf4 self\cf0  \cf5 downloadImageForCell\cf0 :cell \cf5 withWeather\cf0 :weather];\
+\
+return cell;\
+\}\
+\
+\pard\tx1444\pardeftab1444\pardirnatural
+
+\f1 \cf0 \'cd\'bc\'c6\'ac
+\f2 url
+\f1 \'c0\'fd\'d7\'d3
+\f2 :\
+\pard\pardeftab720
+
+\f3\fs48 \cf6 \cb7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png
+\f1\fs72 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\'cd\'b7\'b2\'bf\'ca\'d3\'cd\'bc\'bd\'e2\'ce\'f6\'ba\'cd\'b8\'fc\'d0\'c2
+\f0 \
+
+\f1 \'cd\'bc\'c6\'ac\'bb\'ba\'b4\'e6
+\f0 :SDWebImage\
+{\field{\*\fldinst{HYPERLINK "https://github.com/rs/SDWebImage"}}{\fldrslt https://github.com/rs/SDWebImage}}\
+\
+\pard\tx1733\pardeftab1733\pardirnatural
+
+\f2 \cf2 \CocoaLigature0 http://api.worldweatheronline.com/free/v2/weather.ashx?q=beijing&num_of_days=5&format=json&tp=6&key=23d22bdd0202032f73c9c3e1851dd
+\f0 \cf0 \CocoaLigature1 \
+
+\f2 \cf2 \CocoaLigature0 \
+\
+
+\f1 \cf0 \'cc\'ed\'bc\'d3\'b9\'a6\'c4\'dc\'a3\'a8\'d7\'f7\'d2\'b5\'a3\'a9\'a3\'ba\
+\'b3\'c7\'ca\'d0Label\'cf\'d4\'ca\'be\'d2\'d1\'be\'ad\'b2\'bb\'ca\'c7\'b3\'c7\'ca\'d0\'c3\'fb\'d7\'d6\'a3\'a8
+\fs60 Lat 39.90 and Lon 116.41
+\fs72 \'a3\'a9\'a1\'aa\'a1\'aa>\'b7\'b4\'b5\'d8\'c0\'ed\'b1\'e0\'c2\'eb(\'cf\'d4\'ca\'be\'d3\'c3\'bb\'a7\'cb\'f9\'d4\'da\'b3\'c7\'ca\'d0\'b5\'c4\'c3\'fb\'d7\'d6)\
+\
+\'cc\'ed\'bc\'d3\'b9\'a6\'c4\'dc\'a3\'a8\'d7\'f7\'d2\'b5\'a3\'a9\'a3\'ba\
+\CocoaLigature1 \'bd\'ab
+\f0 AFNetworking
+\f1 \'cc\'ed\'bc\'d3
+\f0 \'93
+\f1 \'cc\'ec\'c6\'f8
+\f0 \'94
+\f1 \'d3\'a6\'d3\'c3\'d6\'d0
+\f0 \
+\
+
+\f1 \'d1\'f9\'c0\'fd\'a3\'ba\'ca\'b9\'d3\'c3
+\f0 AFNetworking
+\f1 \'c0\'b4\'ca\'b5\'cf\'d6
+\f0 GET
+\f1 \'ba\'cd
+\f0 POST
+\f1 \'b9\'a6\'c4\'dc
+\f0 \
+[Demo01-AFNetworking]\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+}

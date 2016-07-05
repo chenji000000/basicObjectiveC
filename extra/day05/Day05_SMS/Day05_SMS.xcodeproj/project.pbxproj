@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		850067A61C23D9D600CF5FD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 850067A51C23D9D600CF5FD4 /* main.m */; };
+		850067A91C23D9D600CF5FD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 850067A81C23D9D600CF5FD4 /* AppDelegate.m */; };
+		850067AC1C23D9D600CF5FD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850067AB1C23D9D600CF5FD4 /* ViewController.m */; };
+		850067AF1C23D9D600CF5FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850067AD1C23D9D600CF5FD4 /* Main.storyboard */; };
+		850067B11C23D9D600CF5FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850067B01C23D9D600CF5FD4 /* Assets.xcassets */; };
+		850067B41C23D9D600CF5FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850067B21C23D9D600CF5FD4 /* LaunchScreen.storyboard */; };
+		850067C11C23DB3100CF5FD4 /* SMS_SDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 850067BC1C23DB3100CF5FD4 /* SMS_SDKLocalizable.strings */; };
+		850067C21C23DB3100CF5FD4 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067BE1C23DB3100CF5FD4 /* MOBFoundation.framework */; };
+		850067C31C23DB3100CF5FD4 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067BF1C23DB3100CF5FD4 /* SMS_SDK.framework */; };
+		850067C51C23DBE900CF5FD4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067C41C23DBE900CF5FD4 /* libz.tbd */; };
+		850067C71C23DC2E00CF5FD4 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067C61C23DC2E00CF5FD4 /* libicucore.tbd */; };
+		850067C91C23DC3C00CF5FD4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067C81C23DC3C00CF5FD4 /* MessageUI.framework */; };
+		850067CB1C23DC4700CF5FD4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067CA1C23DC4700CF5FD4 /* JavaScriptCore.framework */; };
+		850067CD1C23DC5A00CF5FD4 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067CC1C23DC5A00CF5FD4 /* libstdc++.tbd */; };
+		850067CF1C23DC6A00CF5FD4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067CE1C23DC6A00CF5FD4 /* AddressBook.framework */; };
+		850067D11C23DC7800CF5FD4 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850067D01C23DC7800CF5FD4 /* AddressBookUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		850067A11C23D9D600CF5FD4 /* Day05_SMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day05_SMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850067A51C23D9D600CF5FD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		850067A71C23D9D600CF5FD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		850067A81C23D9D600CF5FD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		850067AA1C23D9D600CF5FD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		850067AB1C23D9D600CF5FD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		850067AE1C23D9D600CF5FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		850067B01C23D9D600CF5FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		850067B31C23D9D600CF5FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		850067B51C23D9D600CF5FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850067BD1C23DB3100CF5FD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SMS_SDKLocalizable.strings; sourceTree = "<group>"; };
+		850067BE1C23DB3100CF5FD4 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		850067BF1C23DB3100CF5FD4 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		850067C01C23DB3100CF5FD4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SMS_SDKLocalizable.strings"; sourceTree = "<group>"; };
+		850067C41C23DBE900CF5FD4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		850067C61C23DC2E00CF5FD4 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		850067C81C23DC3C00CF5FD4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		850067CA1C23DC4700CF5FD4 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		850067CC1C23DC5A00CF5FD4 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		850067CE1C23DC6A00CF5FD4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		850067D01C23DC7800CF5FD4 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8500679E1C23D9D600CF5FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850067D11C23DC7800CF5FD4 /* AddressBookUI.framework in Frameworks */,
+				850067CF1C23DC6A00CF5FD4 /* AddressBook.framework in Frameworks */,
+				850067CD1C23DC5A00CF5FD4 /* libstdc++.tbd in Frameworks */,
+				850067CB1C23DC4700CF5FD4 /* JavaScriptCore.framework in Frameworks */,
+				850067C91C23DC3C00CF5FD4 /* MessageUI.framework in Frameworks */,
+				850067C71C23DC2E00CF5FD4 /* libicucore.tbd in Frameworks */,
+				850067C51C23DBE900CF5FD4 /* libz.tbd in Frameworks */,
+				850067C21C23DB3100CF5FD4 /* MOBFoundation.framework in Frameworks */,
+				850067C31C23DB3100CF5FD4 /* SMS_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		850067981C23D9D600CF5FD4 = {
+			isa = PBXGroup;
+			children = (
+				850067D01C23DC7800CF5FD4 /* AddressBookUI.framework */,
+				850067CE1C23DC6A00CF5FD4 /* AddressBook.framework */,
+				850067CC1C23DC5A00CF5FD4 /* libstdc++.tbd */,
+				850067CA1C23DC4700CF5FD4 /* JavaScriptCore.framework */,
+				850067C81C23DC3C00CF5FD4 /* MessageUI.framework */,
+				850067C61C23DC2E00CF5FD4 /* libicucore.tbd */,
+				850067C41C23DBE900CF5FD4 /* libz.tbd */,
+				850067A31C23D9D600CF5FD4 /* Day05_SMS */,
+				850067A21C23D9D600CF5FD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		850067A21C23D9D600CF5FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				850067A11C23D9D600CF5FD4 /* Day05_SMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		850067A31C23D9D600CF5FD4 /* Day05_SMS */ = {
+			isa = PBXGroup;
+			children = (
+				850067BB1C23DB3100CF5FD4 /* SMS_SDK */,
+				850067A71C23D9D600CF5FD4 /* AppDelegate.h */,
+				850067A81C23D9D600CF5FD4 /* AppDelegate.m */,
+				850067AA1C23D9D600CF5FD4 /* ViewController.h */,
+				850067AB1C23D9D600CF5FD4 /* ViewController.m */,
+				850067AD1C23D9D600CF5FD4 /* Main.storyboard */,
+				850067B01C23D9D600CF5FD4 /* Assets.xcassets */,
+				850067B21C23D9D600CF5FD4 /* LaunchScreen.storyboard */,
+				850067B51C23D9D600CF5FD4 /* Info.plist */,
+				850067A41C23D9D600CF5FD4 /* Supporting Files */,
+			);
+			path = Day05_SMS;
+			sourceTree = "<group>";
+		};
+		850067A41C23D9D600CF5FD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				850067A51C23D9D600CF5FD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		850067BB1C23DB3100CF5FD4 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				850067BC1C23DB3100CF5FD4 /* SMS_SDKLocalizable.strings */,
+				850067BE1C23DB3100CF5FD4 /* MOBFoundation.framework */,
+				850067BF1C23DB3100CF5FD4 /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		850067A01C23D9D600CF5FD4 /* Day05_SMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850067B81C23D9D600CF5FD4 /* Build configuration list for PBXNativeTarget "Day05_SMS" */;
+			buildPhases = (
+				8500679D1C23D9D600CF5FD4 /* Sources */,
+				8500679E1C23D9D600CF5FD4 /* Frameworks */,
+				8500679F1C23D9D600CF5FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day05_SMS;
+			productName = Day05_SMS;
+			productReference = 850067A11C23D9D600CF5FD4 /* Day05_SMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		850067991C23D9D600CF5FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					850067A01C23D9D600CF5FD4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 8500679C1C23D9D600CF5FD4 /* Build configuration list for PBXProject "Day05_SMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 850067981C23D9D600CF5FD4;
+			productRefGroup = 850067A21C23D9D600CF5FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				850067A01C23D9D600CF5FD4 /* Day05_SMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8500679F1C23D9D600CF5FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850067C11C23DB3100CF5FD4 /* SMS_SDKLocalizable.strings in Resources */,
+				850067B41C23D9D600CF5FD4 /* LaunchScreen.storyboard in Resources */,
+				850067B11C23D9D600CF5FD4 /* Assets.xcassets in Resources */,
+				850067AF1C23D9D600CF5FD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8500679D1C23D9D600CF5FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850067AC1C23D9D600CF5FD4 /* ViewController.m in Sources */,
+				850067A91C23D9D600CF5FD4 /* AppDelegate.m in Sources */,
+				850067A61C23D9D600CF5FD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		850067AD1C23D9D600CF5FD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850067AE1C23D9D600CF5FD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		850067B21C23D9D600CF5FD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850067B31C23D9D600CF5FD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		850067BC1C23DB3100CF5FD4 /* SMS_SDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850067BD1C23DB3100CF5FD4 /* en */,
+				850067C01C23DB3100CF5FD4 /* zh-Hans */,
+			);
+			name = SMS_SDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		850067B61C23D9D600CF5FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		850067B71C23D9D600CF5FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		850067B91C23D9D600CF5FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Day05_SMS/SMS_SDK",
+				);
+				INFOPLIST_FILE = Day05_SMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.Day05-SMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		850067BA1C23D9D600CF5FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Day05_SMS/SMS_SDK",
+				);
+				INFOPLIST_FILE = Day05_SMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.tarena.Day05-SMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8500679C1C23D9D600CF5FD4 /* Build configuration list for PBXProject "Day05_SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850067B61C23D9D600CF5FD4 /* Debug */,
+				850067B71C23D9D600CF5FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		850067B81C23D9D600CF5FD4 /* Build configuration list for PBXNativeTarget "Day05_SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850067B91C23D9D600CF5FD4 /* Debug */,
+				850067BA1C23D9D600CF5FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 850067991C23D9D600CF5FD4 /* Project object */;
+}

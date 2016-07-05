@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3F1-Rq-rGs"/>
+                        <viewControllerLayoutGuide type="bottom" id="vR1-OF-ycB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7he-h9-zuk">
+                                <rect key="frame" x="165" y="20" width="135" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nEi-JV-ros"/>
+                                </constraints>
+                                <state key="normal" title="Button2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAs-z0-aXq">
+                                <rect key="frame" x="20" y="20" width="135" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="pEo-L8-gMT"/>
+                                </constraints>
+                                <state key="normal" title="Button1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon120.png" translatesAutoresizingMaskIntoConstraints="NO" id="JBS-2S-7sv">
+                                <rect key="frame" x="20" y="70" width="280" height="448"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgD-m1-isR">
+                                <rect key="frame" x="220" y="528" width="20" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="IiY-m8-6TJ"/>
+                                    <constraint firstAttribute="height" constant="20" id="vCn-Jy-R6m"/>
+                                </constraints>
+                                <state key="normal" title="b1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zz2-vf-pyw">
+                                <rect key="frame" x="280" y="528" width="20" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="BLC-hA-vId"/>
+                                    <constraint firstAttribute="height" constant="20" id="gFK-Xe-1kJ"/>
+                                </constraints>
+                                <state key="normal" title="b3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2o-mQ-Svd">
+                                <rect key="frame" x="250" y="528" width="20" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Nca-cg-jkk"/>
+                                    <constraint firstAttribute="height" constant="20" id="gnE-Qh-Xmx"/>
+                                </constraints>
+                                <state key="normal" title="b2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7he-h9-zuk" firstAttribute="width" secondItem="IAs-z0-aXq" secondAttribute="width" id="2bh-8t-PmK"/>
+                            <constraint firstAttribute="trailing" secondItem="JBS-2S-7sv" secondAttribute="trailing" constant="20" id="3hU-Lm-uyj"/>
+                            <constraint firstItem="JBS-2S-7sv" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="70" id="8MF-NZ-Ovz"/>
+                            <constraint firstItem="IAs-z0-aXq" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" id="9UW-OD-Ev0"/>
+                            <constraint firstAttribute="bottom" secondItem="JBS-2S-7sv" secondAttribute="bottom" constant="50" id="QNb-hZ-k0w"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="K2o-mQ-Svd" secondAttribute="bottom" constant="20" id="Uym-dz-X8g"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="OgD-m1-isR" secondAttribute="bottom" constant="20" id="Y3a-cZ-pKS"/>
+                            <constraint firstItem="7he-h9-zuk" firstAttribute="leading" secondItem="IAs-z0-aXq" secondAttribute="trailing" constant="10" id="aCD-e7-JCy"/>
+                            <constraint firstItem="JBS-2S-7sv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="dAG-Ms-HSl"/>
+                            <constraint firstItem="7he-h9-zuk" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" id="hjD-1E-aQM"/>
+                            <constraint firstAttribute="trailing" secondItem="zz2-vf-pyw" secondAttribute="trailing" constant="20" id="l29-ci-4LH"/>
+                            <constraint firstItem="K2o-mQ-Svd" firstAttribute="leading" secondItem="OgD-m1-isR" secondAttribute="trailing" constant="10" id="m32-44-dZD"/>
+                            <constraint firstAttribute="bottom" secondItem="zz2-vf-pyw" secondAttribute="bottom" constant="20" id="uFP-AI-JGY"/>
+                            <constraint firstItem="IAs-z0-aXq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="urJ-SU-Sfv"/>
+                            <constraint firstAttribute="trailing" secondItem="7he-h9-zuk" secondAttribute="trailing" constant="20" id="v2a-rZ-uKv"/>
+                            <constraint firstItem="zz2-vf-pyw" firstAttribute="leading" secondItem="K2o-mQ-Svd" secondAttribute="trailing" constant="10" id="xIE-uu-Ndz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234.66666666666666" y="406.12"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon120.png" width="120" height="120"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TRNaviLeftView">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TND-xq-DZM" userLabel="竖线">
+                    <rect key="frame" x="5" y="5" width="1" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="iRn-eS-V4G"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="美食" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ds-wN-Fn6">
+                    <rect key="frame" x="46" y="0.0" width="84" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="g3W-Cu-Pxu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="越南菜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJX-iL-nCO">
+                    <rect key="frame" x="46" y="17" width="84" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xm-mL-I8h">
+                    <rect key="frame" x="0.0" y="0.0" width="130" height="40"/>
+                    <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="icon_category_0"/>
+                    <state key="highlighted" image="icon_category_highlighted_0"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3xm-mL-I8h" secondAttribute="trailing" id="1ua-MS-8VT"/>
+                <constraint firstAttribute="bottom" secondItem="3xm-mL-I8h" secondAttribute="bottom" id="320-XG-T3S"/>
+                <constraint firstAttribute="trailing" secondItem="1Ds-wN-Fn6" secondAttribute="trailing" id="DNk-x7-jWQ"/>
+                <constraint firstAttribute="bottom" secondItem="TND-xq-DZM" secondAttribute="bottom" constant="5" id="J2m-8X-e7Y"/>
+                <constraint firstItem="3xm-mL-I8h" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MCu-RF-y2o"/>
+                <constraint firstAttribute="trailing" secondItem="yJX-iL-nCO" secondAttribute="trailing" id="O45-6d-nmf"/>
+                <constraint firstItem="TND-xq-DZM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="TLj-Sq-zQV"/>
+                <constraint firstItem="TND-xq-DZM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="UtL-mR-NLG"/>
+                <constraint firstItem="yJX-iL-nCO" firstAttribute="leading" secondItem="TND-xq-DZM" secondAttribute="trailing" constant="40" id="dDz-Ni-c2D"/>
+                <constraint firstItem="yJX-iL-nCO" firstAttribute="top" secondItem="1Ds-wN-Fn6" secondAttribute="bottom" constant="2" id="eaY-8C-9vp"/>
+                <constraint firstItem="1Ds-wN-Fn6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iYj-jl-maJ"/>
+                <constraint firstItem="1Ds-wN-Fn6" firstAttribute="leading" secondItem="TND-xq-DZM" secondAttribute="trailing" constant="40" id="oN7-ap-Zpx"/>
+                <constraint firstItem="3xm-mL-I8h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qFv-xf-Nh7"/>
+                <constraint firstAttribute="bottom" secondItem="yJX-iL-nCO" secondAttribute="bottom" constant="3" id="xDG-VD-BQt"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageButton" destination="3xm-mL-I8h" id="jaF-ZY-BSn"/>
+                <outlet property="subTitleLabel" destination="yJX-iL-nCO" id="qb5-BV-EwP"/>
+                <outlet property="titleLabel" destination="1Ds-wN-Fn6" id="Sze-Ch-lC1"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="354"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_category_0" width="30" height="30"/>
+        <image name="icon_category_highlighted_0" width="30" height="30"/>
+    </resources>
+</document>

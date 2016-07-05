@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="F4N-AN-9Va">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="S14-3m-1zB">
+            <objects>
+                <navigationController toolbarHidden="NO" id="F4N-AN-9Va" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9G0-ot-5Bp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="imQ-PA-UYb">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="We1-ue-sWE" kind="relationship" relationship="rootViewController" id="Aga-lB-Zve"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ju5-EI-tYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32" y="702"/>
+        </scene>
+        <!--这里是标题-->
+        <scene sceneID="ec0-Vi-q25">
+            <objects>
+                <viewController id="We1-ue-sWE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FXb-RL-vNd"/>
+                        <viewControllerLayoutGuide type="bottom" id="vqY-yz-3rp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FpC-eM-1pi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="z1g-hQ-qts"/>
+                        <barButtonItem systemItem="rewind" id="lF3-D4-tj9"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="qor-YA-vDs"/>
+                        <barButtonItem systemItem="play" id="l7P-r2-aB1"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="MW4-xb-JdZ"/>
+                        <barButtonItem systemItem="fastForward" id="d96-R2-GVc"/>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="lGo-pQ-GC6"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="这里是标题" id="hUv-Xz-QP8">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="jvG-Lb-OT8"/>
+                        <barButtonItem key="rightBarButtonItem" image="array.png" style="plain" id="bXA-ca-N7m">
+                            <connections>
+                                <segue destination="h9R-bm-c3T" kind="push" id="tgD-Oy-QJn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kgo-Oj-lw1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="404" y="703"/>
+        </scene>
+        <!--第二个-->
+        <scene sceneID="WN1-ct-SCA">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="h9R-bm-c3T" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jla-J7-kZF"/>
+                        <viewControllerLayoutGuide type="bottom" id="9cP-e1-Lx7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cmm-pk-AgQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二个" id="u8W-aR-ELn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bDg-hm-Iea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="843" y="703"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="array.png" width="17" height="28"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		858A74731BE0E3520028017E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A74721BE0E3520028017E /* main.m */; };
+		858A74761BE0E3520028017E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A74751BE0E3520028017E /* AppDelegate.m */; };
+		858A74791BE0E3520028017E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A74781BE0E3520028017E /* ViewController.m */; };
+		858A747C1BE0E3520028017E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858A747A1BE0E3520028017E /* Main.storyboard */; };
+		858A747E1BE0E3520028017E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858A747D1BE0E3520028017E /* Images.xcassets */; };
+		858A74811BE0E3520028017E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858A747F1BE0E3520028017E /* LaunchScreen.xib */; };
+		858A748D1BE0E3530028017E /* __________________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A748C1BE0E3530028017E /* __________________Tests.m */; };
+		858A74971BE0E3FD0028017E /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 858A74961BE0E3FD0028017E /* icon120.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		858A74871BE0E3530028017E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 858A74651BE0E3520028017E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 858A746C1BE0E3520028017E;
+			remoteInfo = "控制图片视图保持与手势的移动节奏一致";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		858A746D1BE0E3520028017E /* 控制图片视图保持与手势的移动节奏一致.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "控制图片视图保持与手势的移动节奏一致.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		858A74711BE0E3520028017E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858A74721BE0E3520028017E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		858A74741BE0E3520028017E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		858A74751BE0E3520028017E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		858A74771BE0E3520028017E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		858A74781BE0E3520028017E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		858A747B1BE0E3520028017E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		858A747D1BE0E3520028017E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		858A74801BE0E3520028017E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		858A74861BE0E3530028017E /* 控制图片视图保持与手势的移动节奏一致Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "控制图片视图保持与手势的移动节奏一致Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		858A748B1BE0E3530028017E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858A748C1BE0E3530028017E /* __________________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________________Tests.m"; sourceTree = "<group>"; };
+		858A74961BE0E3FD0028017E /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858A746A1BE0E3520028017E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858A74831BE0E3530028017E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858A74641BE0E3520028017E = {
+			isa = PBXGroup;
+			children = (
+				858A746F1BE0E3520028017E /* 控制图片视图保持与手势的移动节奏一致 */,
+				858A74891BE0E3530028017E /* 控制图片视图保持与手势的移动节奏一致Tests */,
+				858A746E1BE0E3520028017E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858A746E1BE0E3520028017E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858A746D1BE0E3520028017E /* 控制图片视图保持与手势的移动节奏一致.app */,
+				858A74861BE0E3530028017E /* 控制图片视图保持与手势的移动节奏一致Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858A746F1BE0E3520028017E /* 控制图片视图保持与手势的移动节奏一致 */ = {
+			isa = PBXGroup;
+			children = (
+				858A74741BE0E3520028017E /* AppDelegate.h */,
+				858A74751BE0E3520028017E /* AppDelegate.m */,
+				858A74771BE0E3520028017E /* ViewController.h */,
+				858A74781BE0E3520028017E /* ViewController.m */,
+				858A747A1BE0E3520028017E /* Main.storyboard */,
+				858A74961BE0E3FD0028017E /* icon120.png */,
+				858A747D1BE0E3520028017E /* Images.xcassets */,
+				858A747F1BE0E3520028017E /* LaunchScreen.xib */,
+				858A74701BE0E3520028017E /* Supporting Files */,
+			);
+			path = "控制图片视图保持与手势的移动节奏一致";
+			sourceTree = "<group>";
+		};
+		858A74701BE0E3520028017E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				858A74711BE0E3520028017E /* Info.plist */,
+				858A74721BE0E3520028017E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		858A74891BE0E3530028017E /* 控制图片视图保持与手势的移动节奏一致Tests */ = {
+			isa = PBXGroup;
+			children = (
+				858A748C1BE0E3530028017E /* __________________Tests.m */,
+				858A748A1BE0E3530028017E /* Supporting Files */,
+			);
+			path = "控制图片视图保持与手势的移动节奏一致Tests";
+			sourceTree = "<group>";
+		};
+		858A748A1BE0E3530028017E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				858A748B1BE0E3530028017E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858A746C1BE0E3520028017E /* 控制图片视图保持与手势的移动节奏一致 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858A74901BE0E3530028017E /* Build configuration list for PBXNativeTarget "控制图片视图保持与手势的移动节奏一致" */;
+			buildPhases = (
+				858A74691BE0E3520028017E /* Sources */,
+				858A746A1BE0E3520028017E /* Frameworks */,
+				858A746B1BE0E3520028017E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "控制图片视图保持与手势的移动节奏一致";
+			productName = "控制图片视图保持与手势的移动节奏一致";
+			productReference = 858A746D1BE0E3520028017E /* 控制图片视图保持与手势的移动节奏一致.app */;
+			productType = "com.apple.product-type.application";
+		};
+		858A74851BE0E3530028017E /* 控制图片视图保持与手势的移动节奏一致Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858A74931BE0E3530028017E /* Build configuration list for PBXNativeTarget "控制图片视图保持与手势的移动节奏一致Tests" */;
+			buildPhases = (
+				858A74821BE0E3530028017E /* Sources */,
+				858A74831BE0E3530028017E /* Frameworks */,
+				858A74841BE0E3530028017E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				858A74881BE0E3530028017E /* PBXTargetDependency */,
+			);
+			name = "控制图片视图保持与手势的移动节奏一致Tests";
+			productName = "控制图片视图保持与手势的移动节奏一致Tests";
+			productReference = 858A74861BE0E3530028017E /* 控制图片视图保持与手势的移动节奏一致Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858A74651BE0E3520028017E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					858A746C1BE0E3520028017E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					858A74851BE0E3530028017E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 858A746C1BE0E3520028017E;
+					};
+				};
+			};
+			buildConfigurationList = 858A74681BE0E3520028017E /* Build configuration list for PBXProject "控制图片视图保持与手势的移动节奏一致" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 858A74641BE0E3520028017E;
+			productRefGroup = 858A746E1BE0E3520028017E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858A746C1BE0E3520028017E /* 控制图片视图保持与手势的移动节奏一致 */,
+				858A74851BE0E3530028017E /* 控制图片视图保持与手势的移动节奏一致Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858A746B1BE0E3520028017E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858A747C1BE0E3520028017E /* Main.storyboard in Resources */,
+				858A74811BE0E3520028017E /* LaunchScreen.xib in Resources */,
+				858A74971BE0E3FD0028017E /* icon120.png in Resources */,
+				858A747E1BE0E3520028017E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858A74841BE0E3530028017E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858A74691BE0E3520028017E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858A74791BE0E3520028017E /* ViewController.m in Sources */,
+				858A74761BE0E3520028017E /* AppDelegate.m in Sources */,
+				858A74731BE0E3520028017E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858A74821BE0E3530028017E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858A748D1BE0E3530028017E /* __________________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		858A74881BE0E3530028017E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 858A746C1BE0E3520028017E /* 控制图片视图保持与手势的移动节奏一致 */;
+			targetProxy = 858A74871BE0E3530028017E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		858A747A1BE0E3520028017E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858A747B1BE0E3520028017E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		858A747F1BE0E3520028017E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858A74801BE0E3520028017E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858A748E1BE0E3530028017E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		858A748F1BE0E3530028017E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858A74911BE0E3530028017E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "控制图片视图保持与手势的移动节奏一致/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		858A74921BE0E3530028017E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "控制图片视图保持与手势的移动节奏一致/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		858A74941BE0E3530028017E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "控制图片视图保持与手势的移动节奏一致Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/控制图片视图保持与手势的移动节奏一致.app/控制图片视图保持与手势的移动节奏一致";
+			};
+			name = Debug;
+		};
+		858A74951BE0E3530028017E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "控制图片视图保持与手势的移动节奏一致Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/控制图片视图保持与手势的移动节奏一致.app/控制图片视图保持与手势的移动节奏一致";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858A74681BE0E3520028017E /* Build configuration list for PBXProject "控制图片视图保持与手势的移动节奏一致" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858A748E1BE0E3530028017E /* Debug */,
+				858A748F1BE0E3530028017E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858A74901BE0E3530028017E /* Build configuration list for PBXNativeTarget "控制图片视图保持与手势的移动节奏一致" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858A74911BE0E3530028017E /* Debug */,
+				858A74921BE0E3530028017E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		858A74931BE0E3530028017E /* Build configuration list for PBXNativeTarget "控制图片视图保持与手势的移动节奏一致Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858A74941BE0E3530028017E /* Debug */,
+				858A74951BE0E3530028017E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858A74651BE0E3520028017E /* Project object */;
+}

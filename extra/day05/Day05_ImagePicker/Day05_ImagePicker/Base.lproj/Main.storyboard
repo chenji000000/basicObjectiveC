@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A2301" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xh9-6F-Iwk">
+                                <rect key="frame" x="103" y="20" width="114" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="从相册获取"/>
+                                <connections>
+                                    <action selector="getPhotoFromLb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYj-Vr-qCl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMj-4S-oUp">
+                                <rect key="frame" x="103" y="77" width="114" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="拍照获取"/>
+                                <connections>
+                                    <action selector="getPhotoFromCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hcu-rs-usR"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jJW-8g-FQA">
+                                <rect key="frame" x="0.0" y="138" width="320" height="430"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cMj-4S-oUp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="103" id="2xp-f8-Kwc"/>
+                            <constraint firstAttribute="trailing" secondItem="cMj-4S-oUp" secondAttribute="trailing" constant="103" id="Gof-FM-U2J"/>
+                            <constraint firstItem="Xh9-6F-Iwk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="MxY-RB-D0D"/>
+                            <constraint firstItem="cMj-4S-oUp" firstAttribute="top" secondItem="Xh9-6F-Iwk" secondAttribute="bottom" constant="21" id="TOb-Se-cee"/>
+                            <constraint firstAttribute="trailing" secondItem="jJW-8g-FQA" secondAttribute="trailing" id="VVe-xc-TwF"/>
+                            <constraint firstItem="Xh9-6F-Iwk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="103" id="Yw8-Qz-wiG"/>
+                            <constraint firstItem="jJW-8g-FQA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gnQ-7B-Fa3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jJW-8g-FQA" secondAttribute="bottom" id="uKz-yO-gs0"/>
+                            <constraint firstItem="jJW-8g-FQA" firstAttribute="top" secondItem="cMj-4S-oUp" secondAttribute="bottom" constant="25" id="uww-T4-d6O"/>
+                            <constraint firstAttribute="trailing" secondItem="Xh9-6F-Iwk" secondAttribute="trailing" constant="103" id="y2C-Y3-4kR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="jJW-8g-FQA" id="9cp-wG-Hzq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+    </scenes>
+</document>

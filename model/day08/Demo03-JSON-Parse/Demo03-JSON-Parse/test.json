@@ -1,0 +1,5 @@
+{
+    "FeelsLikeC":"10",
+    "temp_c":12,
+    "request":[{"query":"Beijing,China"},{"lat_lon":"39.123,119.456"}]
+}

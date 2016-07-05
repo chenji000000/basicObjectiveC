@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8546480D1BE1F7C500BC243C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546480C1BE1F7C500BC243C /* main.m */; };
+		854648101BE1F7C500BC243C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8546480F1BE1F7C500BC243C /* AppDelegate.m */; };
+		854648131BE1F7C500BC243C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854648121BE1F7C500BC243C /* ViewController.m */; };
+		854648161BE1F7C500BC243C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854648141BE1F7C500BC243C /* Main.storyboard */; };
+		854648181BE1F7C500BC243C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854648171BE1F7C500BC243C /* Images.xcassets */; };
+		8546481B1BE1F7C500BC243C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 854648191BE1F7C500BC243C /* LaunchScreen.xib */; };
+		854648271BE1F7C500BC243C /* Demo3___bounds______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 854648261BE1F7C500BC243C /* Demo3___bounds______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		854648211BE1F7C500BC243C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 854647FF1BE1F7C500BC243C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854648061BE1F7C500BC243C;
+			remoteInfo = "Demo3_修改bounds的坐标系圆点";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		854648071BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo3_修改bounds的坐标系圆点.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8546480B1BE1F7C500BC243C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8546480C1BE1F7C500BC243C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8546480E1BE1F7C500BC243C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8546480F1BE1F7C500BC243C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		854648111BE1F7C500BC243C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		854648121BE1F7C500BC243C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		854648151BE1F7C500BC243C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		854648171BE1F7C500BC243C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8546481A1BE1F7C500BC243C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		854648201BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo3_修改bounds的坐标系圆点Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854648251BE1F7C500BC243C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854648261BE1F7C500BC243C /* Demo3___bounds______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Demo3___bounds______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854648041BE1F7C500BC243C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8546481D1BE1F7C500BC243C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		854647FE1BE1F7C500BC243C = {
+			isa = PBXGroup;
+			children = (
+				854648091BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点 */,
+				854648231BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点Tests */,
+				854648081BE1F7C500BC243C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		854648081BE1F7C500BC243C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				854648071BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点.app */,
+				854648201BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		854648091BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点 */ = {
+			isa = PBXGroup;
+			children = (
+				8546480E1BE1F7C500BC243C /* AppDelegate.h */,
+				8546480F1BE1F7C500BC243C /* AppDelegate.m */,
+				854648111BE1F7C500BC243C /* ViewController.h */,
+				854648121BE1F7C500BC243C /* ViewController.m */,
+				854648141BE1F7C500BC243C /* Main.storyboard */,
+				854648171BE1F7C500BC243C /* Images.xcassets */,
+				854648191BE1F7C500BC243C /* LaunchScreen.xib */,
+				8546480A1BE1F7C500BC243C /* Supporting Files */,
+			);
+			path = "Demo3_修改bounds的坐标系圆点";
+			sourceTree = "<group>";
+		};
+		8546480A1BE1F7C500BC243C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8546480B1BE1F7C500BC243C /* Info.plist */,
+				8546480C1BE1F7C500BC243C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		854648231BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点Tests */ = {
+			isa = PBXGroup;
+			children = (
+				854648261BE1F7C500BC243C /* Demo3___bounds______Tests.m */,
+				854648241BE1F7C500BC243C /* Supporting Files */,
+			);
+			path = "Demo3_修改bounds的坐标系圆点Tests";
+			sourceTree = "<group>";
+		};
+		854648241BE1F7C500BC243C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				854648251BE1F7C500BC243C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		854648061BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8546482A1BE1F7C500BC243C /* Build configuration list for PBXNativeTarget "Demo3_修改bounds的坐标系圆点" */;
+			buildPhases = (
+				854648031BE1F7C500BC243C /* Sources */,
+				854648041BE1F7C500BC243C /* Frameworks */,
+				854648051BE1F7C500BC243C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo3_修改bounds的坐标系圆点";
+			productName = "Demo3_修改bounds的坐标系圆点";
+			productReference = 854648071BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8546481F1BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8546482D1BE1F7C500BC243C /* Build configuration list for PBXNativeTarget "Demo3_修改bounds的坐标系圆点Tests" */;
+			buildPhases = (
+				8546481C1BE1F7C500BC243C /* Sources */,
+				8546481D1BE1F7C500BC243C /* Frameworks */,
+				8546481E1BE1F7C500BC243C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				854648221BE1F7C500BC243C /* PBXTargetDependency */,
+			);
+			name = "Demo3_修改bounds的坐标系圆点Tests";
+			productName = "Demo3_修改bounds的坐标系圆点Tests";
+			productReference = 854648201BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		854647FF1BE1F7C500BC243C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					854648061BE1F7C500BC243C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8546481F1BE1F7C500BC243C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 854648061BE1F7C500BC243C;
+					};
+				};
+			};
+			buildConfigurationList = 854648021BE1F7C500BC243C /* Build configuration list for PBXProject "Demo3_修改bounds的坐标系圆点" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 854647FE1BE1F7C500BC243C;
+			productRefGroup = 854648081BE1F7C500BC243C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				854648061BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点 */,
+				8546481F1BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		854648051BE1F7C500BC243C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854648161BE1F7C500BC243C /* Main.storyboard in Resources */,
+				8546481B1BE1F7C500BC243C /* LaunchScreen.xib in Resources */,
+				854648181BE1F7C500BC243C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8546481E1BE1F7C500BC243C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		854648031BE1F7C500BC243C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854648131BE1F7C500BC243C /* ViewController.m in Sources */,
+				854648101BE1F7C500BC243C /* AppDelegate.m in Sources */,
+				8546480D1BE1F7C500BC243C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8546481C1BE1F7C500BC243C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854648271BE1F7C500BC243C /* Demo3___bounds______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		854648221BE1F7C500BC243C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 854648061BE1F7C500BC243C /* Demo3_修改bounds的坐标系圆点 */;
+			targetProxy = 854648211BE1F7C500BC243C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		854648141BE1F7C500BC243C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				854648151BE1F7C500BC243C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		854648191BE1F7C500BC243C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8546481A1BE1F7C500BC243C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		854648281BE1F7C500BC243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		854648291BE1F7C500BC243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8546482B1BE1F7C500BC243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo3_修改bounds的坐标系圆点/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8546482C1BE1F7C500BC243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo3_修改bounds的坐标系圆点/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8546482E1BE1F7C500BC243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo3_修改bounds的坐标系圆点Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo3_修改bounds的坐标系圆点.app/Demo3_修改bounds的坐标系圆点";
+			};
+			name = Debug;
+		};
+		8546482F1BE1F7C500BC243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo3_修改bounds的坐标系圆点Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo3_修改bounds的坐标系圆点.app/Demo3_修改bounds的坐标系圆点";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		854648021BE1F7C500BC243C /* Build configuration list for PBXProject "Demo3_修改bounds的坐标系圆点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854648281BE1F7C500BC243C /* Debug */,
+				854648291BE1F7C500BC243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8546482A1BE1F7C500BC243C /* Build configuration list for PBXNativeTarget "Demo3_修改bounds的坐标系圆点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8546482B1BE1F7C500BC243C /* Debug */,
+				8546482C1BE1F7C500BC243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8546482D1BE1F7C500BC243C /* Build configuration list for PBXNativeTarget "Demo3_修改bounds的坐标系圆点Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8546482E1BE1F7C500BC243C /* Debug */,
+				8546482F1BE1F7C500BC243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 854647FF1BE1F7C500BC243C /* Project object */;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TRMapViewController">
+            <connections>
+                <outlet property="mapView" destination="XAl-xa-p6c" id="KJR-rQ-tvl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="XAl-xa-p6c">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </mapView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="XAl-xa-p6c" secondAttribute="bottom" id="1Tj-aM-UDn"/>
+                <constraint firstItem="XAl-xa-p6c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="I0e-WL-iQ5"/>
+                <constraint firstAttribute="trailing" secondItem="XAl-xa-p6c" secondAttribute="trailing" id="fxQ-uY-WN8"/>
+                <constraint firstItem="XAl-xa-p6c" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="v6n-Sy-La6"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aGU-OT-RDV">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--诗词分类-->
+        <scene sceneID="4W3-ZE-HOk">
+            <objects>
+                <tableViewController id="9Q0-Cy-um6" customClass="TRMainTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="k6s-wn-BGo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" id="qNq-yC-fQR" customClass="TRTableViewCell">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qNq-yC-fQR" id="Ibl-UV-nWk">
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sg-ON-k9B">
+                                            <rect key="frame" x="15" y="5" width="200" height="33"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="200" id="Zuf-Ra-OYO"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fyt-tx-n8x">
+                                            <rect key="frame" x="502" y="5" width="50" height="33"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="6mM-34-RwM"/>
+                                            </constraints>
+                                            <state key="normal" title="详情"/>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Fyt-tx-n8x" firstAttribute="top" secondItem="Ibl-UV-nWk" secondAttribute="top" constant="5" id="Bp5-Zd-J2o"/>
+                                        <constraint firstAttribute="bottom" secondItem="Fyt-tx-n8x" secondAttribute="bottom" constant="5" id="FCm-kh-Jbv"/>
+                                        <constraint firstItem="6sg-ON-k9B" firstAttribute="top" secondItem="Ibl-UV-nWk" secondAttribute="top" constant="5" id="JQY-rt-gHi"/>
+                                        <constraint firstItem="6sg-ON-k9B" firstAttribute="leading" secondItem="Ibl-UV-nWk" secondAttribute="leadingMargin" constant="15" id="KUJ-2I-zYe"/>
+                                        <constraint firstItem="6sg-ON-k9B" firstAttribute="leading" secondItem="Ibl-UV-nWk" secondAttribute="leading" constant="15" id="QAc-uV-DSt"/>
+                                        <constraint firstAttribute="bottom" secondItem="6sg-ON-k9B" secondAttribute="bottom" constant="5" id="Tdb-G8-3JK"/>
+                                        <constraint firstItem="6sg-ON-k9B" firstAttribute="top" secondItem="Ibl-UV-nWk" secondAttribute="topMargin" constant="5" id="c5L-DM-bra"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="6sg-ON-k9B" secondAttribute="bottom" constant="5" id="fu2-9U-vjL"/>
+                                        <constraint firstAttribute="trailing" secondItem="Fyt-tx-n8x" secondAttribute="trailing" constant="15" id="uCf-AK-34F"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="KUJ-2I-zYe"/>
+                                            <exclude reference="c5L-DM-bra"/>
+                                            <exclude reference="fu2-9U-vjL"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="poemButton" destination="Fyt-tx-n8x" id="jlB-UC-6co"/>
+                                    <outlet property="poemLabel" destination="6sg-ON-k9B" id="Uu6-hs-vrx"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="9Q0-Cy-um6" id="iZR-GS-Tor"/>
+                            <outlet property="delegate" destination="9Q0-Cy-um6" id="4U5-ye-zFy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="诗词分类" id="OEH-ic-OVj"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X5J-6v-1mh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="403"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rol-Vg-3xl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aGU-OT-RDV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VKT-e7-tKW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9Q0-Cy-um6" kind="relationship" relationship="rootViewController" id="Qne-vu-ghN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cjE-hc-sRp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304" y="403"/>
+        </scene>
+    </scenes>
+</document>

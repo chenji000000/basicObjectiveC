@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TRImageViewController">
+            <connections>
+                <outlet property="activityView" destination="2n3-pW-Z2L" id="FtY-qr-wor"/>
+                <outlet property="scrollView" destination="NWm-Ez-6kz" id="Opl-08-Ycy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="scv-SC-xay">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="Qpr-c6-rMq"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="图片" id="arD-KR-yVV">
+                            <barButtonItem key="leftBarButtonItem" title="取消" id="QSX-lA-bAC">
+                                <connections>
+                                    <action selector="clickCancel:" destination="-1" id="7ud-rk-yZZ"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="2n3-pW-Z2L">
+                    <rect key="frame" x="150" y="294" width="20" height="0.0"/>
+                </activityIndicatorView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NWm-Ez-6kz">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="scv-SC-xay" secondAttribute="trailing" id="0Pj-mv-Qsm"/>
+                <constraint firstItem="2n3-pW-Z2L" firstAttribute="top" secondItem="scv-SC-xay" secondAttribute="bottom" constant="230" id="5ai-UB-kj7"/>
+                <constraint firstItem="NWm-Ez-6kz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FYo-wT-Bat"/>
+                <constraint firstAttribute="trailing" secondItem="NWm-Ez-6kz" secondAttribute="trailing" id="JBi-zY-Ulc"/>
+                <constraint firstItem="scv-SC-xay" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Okk-gT-vEJ"/>
+                <constraint firstAttribute="trailing" secondItem="2n3-pW-Z2L" secondAttribute="trailing" constant="150" id="Ra9-gJ-6er"/>
+                <constraint firstAttribute="bottom" secondItem="2n3-pW-Z2L" secondAttribute="bottom" constant="274" id="Sri-Lo-JK2"/>
+                <constraint firstItem="scv-SC-xay" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aYK-Pc-wXr"/>
+                <constraint firstItem="NWm-Ez-6kz" firstAttribute="top" secondItem="scv-SC-xay" secondAttribute="bottom" id="fYj-d8-FVY"/>
+                <constraint firstItem="2n3-pW-Z2L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="150" id="jUR-U3-ZLt"/>
+                <constraint firstAttribute="bottom" secondItem="NWm-Ez-6kz" secondAttribute="bottom" id="y1v-2D-tTv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="413" y="447"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TId-ia-jxj">
+                                <rect key="frame" x="20" y="39" width="280" height="29"/>
+                                <segments>
+                                    <segment title="关闭检测"/>
+                                    <segment title="开启检测"/>
+                                </segments>
+                                <connections>
+                                    <action selector="monterning:" destination="BYZ-38-t0r" eventType="valueChanged" id="115-aO-eN1"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="re6-8K-tqp">
+                                <rect key="frame" x="20" y="100" width="280" height="29"/>
+                                <segments>
+                                    <segment title="关闭定位"/>
+                                    <segment title="开启定位"/>
+                                </segments>
+                                <connections>
+                                    <action selector="location:" destination="BYZ-38-t0r" eventType="valueChanged" id="4ad-fO-7Hk"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7qC-wq-jvH">
+                                <rect key="frame" x="20" y="159" width="280" height="29"/>
+                                <segments>
+                                    <segment title="关闭广播"/>
+                                    <segment title="开始广播"/>
+                                </segments>
+                                <connections>
+                                    <action selector="advertise:" destination="BYZ-38-t0r" eventType="valueChanged" id="1ZF-oY-fnl"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TId-ia-jxj" secondAttribute="trailing" constant="20" id="BNf-Gj-Gsa"/>
+                            <constraint firstAttribute="trailing" secondItem="re6-8K-tqp" secondAttribute="trailing" constant="20" id="Iks-p5-rxV"/>
+                            <constraint firstItem="7qC-wq-jvH" firstAttribute="top" secondItem="re6-8K-tqp" secondAttribute="bottom" constant="31" id="JN6-BW-ZNm"/>
+                            <constraint firstItem="7qC-wq-jvH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="PJ6-ov-SRo"/>
+                            <constraint firstItem="TId-ia-jxj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="PX6-Vr-L8S"/>
+                            <constraint firstAttribute="trailing" secondItem="7qC-wq-jvH" secondAttribute="trailing" constant="20" id="hgr-ej-Ejm"/>
+                            <constraint firstItem="re6-8K-tqp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="nNX-Rh-dNC"/>
+                            <constraint firstItem="re6-8K-tqp" firstAttribute="top" secondItem="TId-ia-jxj" secondAttribute="bottom" constant="33" id="r5A-8k-adK"/>
+                            <constraint firstItem="TId-ia-jxj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="tBI-VW-A0v"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+    </scenes>
+</document>

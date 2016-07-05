@@ -1,0 +1,120 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 STHeitiSC-Light;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red217\green11\blue0;\red255\green39\blue18;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17560\viewh12920\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs72 \cf0 Day21:\
+\
+\cf2 Data model file \'97\'97>
+\f1 \'ca\'fd\'be\'dd\'bf\'e2\'ce\'c4\'bc\'fe
+\f0 \
+Entity\'97\'97
+\f1 >\'b1\'ed\
+NSManagedObject(\'b4\'a6\'c0\'ed\'b5\'c4\'b6\'d4\'cf\'f3)\cf0 \
+NSManagerObjectContext\'a1\'aa\'a1\'aa>\'d4\'f6/\'c9\'be/\'b8\'c4/\'b2\'e9\
+NSPersistentStoneCoordinator\'a1\'aa\'a1\'aa>\'b0\'f3\'b6\'a8\'c9\'cf\'cf\'c2\'ce\'c4\
+NSPersistentStone\'a1\'aa\'a1\'aa>SQLite\
+\
+\'b2\'e9\'a3\'ba\
+NSArray *array=[self.context executeQueryWithFormat:];\
+\
+\'b2\'e9\'d1\'af\'bd\'e1\'b9\'fb\'b4\'e6\'b4\'a2\'b5\'bd\'ca\'fd\'d7\'e9\'b1\'e4\'c1\'bf\'a1\'aa\'a1\'aa>\'c4\'da\'b4\'e6\'bc\'a4\'d4\'f6\
+NSFetchedResultController:\'bd\'e1\'b9\'fb\'bf\'d8\'d6\'c6\'c6\'f7\
+1.\'bc\'e0\'cc\'fd\'ca\'fd\'be\'dd\'bf\'e2\'b5\'c4\'ce\'c4\'bc\'fe\'ca\'c7\'b7\'f1\'d3\'d0\'b1\'e4\'bb\'af\'a3\'a8\'d4\'f6/\'c9\'be/\'b8\'fc\'d0\'c2\'a3\'a9\
+2.\'ba\'cdtableView\'bd\'e1\'ba\'cf\'b5\'c4\'b1\'c8\'bd\'cf\'ba\'c3\'a3\'a8section\'a3\'a9\
+\
+\'d1\'f9\'c0\'fd\'a3\'ba\'ca\'b9\'d3\'c3\'bd\'e1\'b9\'fb\'bf\'d8\'d6\'c6\'c6\'f7\'ba\'cdtableView\'b6\'d4\'ba\'c3\'d3\'d1\'bd\'f8\'d0\'d0\'d4\'f6/\'c9\'be/\'b8\'c4/\'b2\'e9\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\tx8543\pardirnatural
+\cf0 [Demo01-CoreData-Contact]\
+\
+\'d7\'dc\'bd\'e1\'a3\'ba\
+1.\'b8\'fc\'d0\'c2\'a3\'a8\'d4\'f6/\'c9\'be/\'b8\'c4\'a3\'a9\'ca\'fd\'be\'dd\'bf\'e2\'ce\'c4\'bc\'fe\'d6\'d0\'b5\'c4\'ca\'fd\'be\'dd\
+a.\'b4\'d3\'bd\'e1\'b9\'fb\'bf\'d8\'d6\'c6\'c6\'f7\'d6\'d0\'bb\'f1\'c8\'a1\'c9\'cf\'cf\'c2\'ce\'c4\'b6\'d4\'cf\'f3\
+2.\'cf\'d4\'ca\'be\'ca\'fd\'be\'dd\'bf\'e2\'ce\'c4\'bc\'fe\'d6\'d0\'b5\'c4\'ca\'fd\'be\'dd\'b5\'bdtableView\
+a.\'d7\'f1\'d1\'adNSFetchedResultsControllerDelegate\
+b.\'b4\'b4\'bd\'a8\'bd\'e1\'b9\'fb\'bf\'d8\'d6\'c6\'c6\'f7\'b6\'d4\'cf\'f3\'a3\'a8request/context/sectionName/Cache/SortDescriptor\'a3\'a9\
+c.\'ca\'b5\'cf\'d6\'cb\'c4\'b8\'f6\'b7\'bd\'b7\'a8\'a3\'a8\'bc\'e0\'cc\'fd\'b5\'bdsection/object\'b7\'a2\'c9\'fa\'b1\'e4\'bb\'af\'a3\'a9\
+\
+\
+Git/SVN\'b0\'e6\'b1\'be\'bf\'d8\'d6\'c6\
+\'ca\'b2\'c3\'b4\'ca\'c7\'b0\'e6\'b1\'be\'bf\'d8\'d6\'c6\'a3\'bf\
+\cf2 \'b0\'e6\'b1\'be\cf0 \'a1\'aa\'a1\'aa>\'b2\'bb\'cd\'ac\'b5\'c4\'ce\'c4\'bc\'fe/\'bc\'d0\'b5\'c4\'b2\'bb\'cd\'ac\'bd\'d7\'b6\'ce\
+test.m\'a1\'aa>V1(2015\'c4\'ea11\'d4\'c230\'c8\'d5)\
+test.m\'a1\'aa>V2(2015\'c4\'ea12\'d4\'c201\'c8\'d5)\
+\cf3 \'bf\'d8\'d6\'c6\cf0 \'a1\'aa\'a1\'aa>\'d7\'d4\'b6\'af\'b5\'c4\'b9\'dc\'c0\'ed\'b2\'bb\'cd\'ac\'b5\'c4\'ce\'c4\'bc\'fe/\'bc\'d0\'b5\'c4\'b2\'bb\'cd\'ac\'bd\'d7\'b6\'ce\
+\
+Git\'b4\'e6\'b4\'a2\'b2\'bb\'cd\'ac\'b5\'c4\'ce\'c4\'bc\'fe/\'bc\'d0\'b5\'c4\'b2\'bb\'cd\'ac\'bd\'d7\'b6\'ce\'b3\'c6\'ce\'aa\cf2 \'b2\'d6\'bf\'e2\cf0 \'a3\'a8Repostory\'a3\'a9\
+\'a1\'aa>\'b4\'d3\'b2\'d6\'bf\'e2\'bb\'f1\'c8\'a1\'c8\'ce\'d2\'e2\'ce\'c4\'bc\'fe\'b5\'c4\'c8\'ce\'d2\'e2\'b0\'e6\'b1\'be\
+\
+\'d3\'c5\'ca\'c6\'a3\'ba\'d7\'d4\'b6\'af\'b5\'c4\'bc\'c7\'c2\'bc\'b2\'bb\'cd\'ac\'ce\'c4\'bc\'fe/\'bc\'d0\'b5\'c4\'b2\'bb\'cd\'ac\
+\
+\
+\'c3\'fc\'c3\'fb\'d0\'d0\'b7\'bd\'ca\'bd\'a3\'a8\'c0\'ed\'bd\'e2\'a3\'a9\
+\'ba\'cdXcode\'bd\'e1\'ba\'cf\'b5\'c4\'b7\'bd\'ca\'bd\'a3\'a8\'be\'a1\'c1\'bf\'d5\'c6\'ce\'d5\'a3\'a9\
+\
+\'cf\'d4\'ca\'be\'d2\'fe\'b2\'d8\'ce\'c4\'bc\'fe\'ba\'cd\'ce\'c4\'bc\'fe\'bc\'d0\'c3\'fc\'c1\'ee\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f2 \cf0 \CocoaLigature0 defaults write com.apple.finder AppleShowAllFiles YES\
+\
+
+\f1 \'b2\'d6\'bf\'e2\'c7\'f8\'a3\'ba.git\'ce\'c4\'bc\'fe\'bc\'d0\'a3\'ba\'b2\'d6\'bf\'e2\'c7\'f8\
+\'b9\'a4\'be\'df\'c7\'f8\'a3\'ba\'ba\'cd.git\'cd\'ac\'bc\'b6\'b5\'c4\'ce\'c4\'bc\'fe\'ba\'cd\'ce\'c4\'bc\'fe\'bc\'d0\'ca\'c7\'b9\'a4\'d7\'f7\'c7\'f8\'a3\'a8\'cc\'ed\'bc\'d3\'b4\'fa\'c2\'eb/\'ce\'c4\'bc\'fe\'a3\'a9\
+\'bb\'ba\'b4\'e6\'c7\'f8\'a3\'ba\
+\
+\'b4\'b4\'bd\'a8\'bf\'d5\'b5\'c4\'ce\'c4\'bc\'fe\'bc\'d0\'a3\'ba\
+mkdir test\
+\'b4\'b4\'bd\'a8\'bf\'d5\'b5\'c4\'ce\'c4\'bc\'fe\
+touch test.m\
+\
+\'ca\'b9\'d3\'c3git\'c3\'fc\'c1\'ee\'bd\'ab\'b9\'a4\'d7\'f7\'c7\'f8\'c4\'b3\'b8\'f6\'ce\'c4\'bc\'fe/Users/tarena/test/test.m\'cc\'e1\'bd\'bb\'b5\'bd\'b2\'d6\'bf\'e2\
+1.test.m\'b1\'e0\'bc\'ad\'a1\'aa\'a1\'aa>open test.m\
+2.test.m\'cc\'e1\'bd\'bb\'bb\'ba\'b4\'e6\'c7\'f8\'a1\'aa\'a1\'aa>git add test.m\
+
+\f2 git rm --cached <file>...
+\f1 \'b7\'b5\'bb\'d8\'b9\'a4\'d7\'f7\'c7\'f8\
+3.test.m\'cc\'e1\'bd\'bb\'b5\'bd\'b2\'d6\'bf\'e2\'a1\'aa\'a1\'aa>git commit -m \'a1\'b0\'cc\'e1\'bd\'bb\'b5\'c4\'d4\'ad\'d2\'f2\'a1\'b1\
+\
+git status:test.m\'d4\'da\'c4\'c4\'b8\'f6\'c7\'f8\
+1.\'ba\'ec\'c9\'ab\'a3\'ba\'b1\'ed\'ca\'be\'b5\'b1\'c7\'b0\'b5\'c4\'ce\'c4\'bc\'fe\'d4\'da\'b9\'a4\'d7\'f7\'c7\'f8\
+2.\'c2\'cc\'c9\'ab\'a3\'ba\'b1\'ed\'ca\'be\'b5\'b1\'c7\'b0\'b5\'c4\'ce\'c4\'bc\'fe\'d4\'da\'bb\'ba\'b4\'e6\'c7\'f8\CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\tx8543\pardirnatural
+\cf0 3.
+\f2 \CocoaLigature0 On branch master\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 nothing to commit, working directory clean(
+\f1 \'b9\'a4\'d7\'f7\'c7\'f8\'ba\'cd\'b2\'d6\'bf\'e2\'c7\'f8\'b5\'c4\'b4\'fa\'c2\'eb\'d2\'bb\'c4\'a3\'d2\'bb\'d1\'f9
+\f2 )\
+\
+
+\f1 \'ca\'b9\'d3\'c3\'c3\'fc\'c1\'ee\'b2\'e9\'bf\'b4
+\f2 log\
+git log\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf3 Xcode
+\f1 \'ce\'de\'b7\'a8\'ca\'b5\'cf\'d6\'c7\'d0\'bb\'bb\'b5\'bd\'c8\'ce\'d2\'e2\'b0\'e6\'b1\'be\'b5\'c4\'b9\'a6\'c4\'dc
+\f2 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f1 \cf0 \'ba\'cd
+\f2 Xcode
+\f1 \'bd\'e1\'ba\'cf\'b5\'c4\'cc\'e1\'bd\'bb\'b5\'bd\'b1\'be\'b5\'d8\'b2\'d6\'bf\'e2
+\f2 \
+
+\f1 \'b1\'e0\'bc\'ad\'b4\'fa\'c2\'eb
+\f2 \'97\'97
+\f1 >Source Control\'a1\'aa\'a1\'aa>commit\'a1\'aa\'a1\'aa>\'d6\'b8\'b6\'a8\'cc\'e1\'bd\'bb\'b5\'c4\'d4\'ad\'d2\'f2\'ca\'c7\'ca\'b2\'c3\'b4\
+\
+\'d6\'d0\'ce\'c4\'d1\'a7\'cf\'b0\'c1\'b4\'bd\'d3\
+http://www.bootcss.com/p/git-guide/\CocoaLigature1 \
+\CocoaLigature0 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000\CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\tx8543\pardirnatural
+\cf0 \
+\
+\
+\
+\
+}

@@ -1,0 +1,194 @@
+{\rtf1\ansi\ansicpg936\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 STHeitiSC-Light;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red221\green32\blue103;\red92\green38\blue153;\red46\green13\blue110;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18420\viewh16960\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs72 \cf0 Day03:\
+
+\f1 \'bb\'d8\'b9\'cb\'a3\'ba
+\f0 \
+
+\f1 \'ca\'fd\'be\'dd\'b3\'d6\'be\'c3\'bb\'af\'a3\'ba
+\f0 \
+
+\f1 \'c4\'da\'b4\'e6\'ca\'fd\'be\'dd\'a1\'aa\'a1\'aa>\'c9\'b3\'ba\'d0\'d6\'d0\'b5\'c4\'c4\'b3\'b8\'f6\'ce\'c4\'bc\'fe\'d6\'d0\
+\
+1NSUserDefaults\
+\'d4\'f5\'c3\'b4\'d3\'c3\'a3\'a8\'d0\'b4/\'b6\'c1\'a3\'a9\'a3\'ba\'b5\'a5\'c0\'fd+\'d1\'a1\'d4\'f1\'b7\'bd\'b7\'a8+key\
+\'d6\'a7\'b3\'d6\'bb\'f9\'b1\'be\'b5\'c4\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd\
+\
+\
+2.Plist\'ca\'f4\'d0\'d4\'c1\'d0\'b1\'ed\
+\'d4\'f5\'c3\'b4\'d3\'c3\'a3\'ba\'b8\'f8\'b6\'a8\'b6\'d4\'cf\'f3+writeToFile\'a3\'bafilePath\
+\'d6\'a7\'b3\'d6\'bb\'f9\'b1\'be\'b5\'c4\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd\
+\'b6\'c1\'a3\'a8NSArray/NSDictionary\'a3\'a9\'a3\'baRoot\'b5\'c4type\'be\'f6\'b6\'a8\'ca\'b9\'d3\'c3\'ca\'b2\'c3\'b4\'c0\'e0\'d0\'cd\'bd\'d3\'ca\'d5\'ca\'fd\'be\'dd\
+\
+\
+\'d0\'c2\'c4\'da\'c8\'dd\'a3\'ba\
+\
+\'d6\'a7\'b3\'d6\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd\'a3\'ba\
+1.\'d6\'bb\'d2\'aa\'d7\'f1\'ca\'d8\'c1\'cbNSCoding\'d0\'ad\'d2\'e9\'b5\'c4\'c0\'e0\'a3\'ac\'b6\'bc\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3\'b9\'e9\'b5\'b5\'b7\'bd\'ca\'bd\'b4\'e6\'ca\'fd\'be\'dd\
+    \'d2\'bb\'b0\'e3\'bb\'f9\'b1\'be\'b5\'c4\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd\'b6\'bc\'d2\'d1\'be\'ad\'d7\'f1\'ca\'d8\'c1\'cbNSCoding\'d0\'ad\'d2\'e9\
+2.\'d6\'a7\'b3\'d6\'d7\'d4\'b6\'a8\'d2\'e5\'b5\'c4\'c0\'e0\'d0\'cdPerson.h/.m:NSObject\
+\
+\'b9\'e9\'b5\'b5Archiving\'a3\'a8\'d0\'b4\'a3\'a9\
+\'b9\'e9\'b5\'b5\'a3\'a8\'d0\'b4\'a3\'a9\'b2\'bd\'d6\'e8\
+1.\'d7\'bc\'b1\'b8\'d2\'bb\'b8\'f6\'bf\'c9\'b4\'e6\'b4\'a2\'ca\'fd\'be\'dd\'b5\'c4\'bf\'c9\'b1\'e4\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cdNSMutableData\
+2.\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6NSKeyedArchiver\'b6\'d4\'cf\'f3\
+3.\'b6\'d4\'d2\'aa\'b1\'a3\'b4\'e6\'b5\'c4\'ca\'fd\'be\'dd\'bd\'f8\'d0\'d0\'b1\'e0\'c2\'eb\'b2\'d9\'d7\'f7\'a3\'a8\'b6\'fe\'bd\'f8\'d6\'c6\'b8\'f1\'ca\'bd\'a3\'a9\
+4.\'d6\'b4\'d0\'d0\'cd\'ea\'b3\'c9\'b1\'e0\'c2\'eb\'b2\'d9\'d7\'f7\
+5.\'bd\'ab\'b1\'e0\'c2\'eb\'ba\'f3\'b5\'c4\'ca\'fd\'be\'dd\'d0\'b4\'c8\'eb\'ce\'c4\'bc\'fe\
+\
+\
+\
+\'bd\'e2\'b5\'b5/\'b7\'b4\'b9\'e9\'b5\'b5Unarchiving(\'b6\'c1)\
+1.\'b4\'d3\'b9\'e9\'b5\'b5\'ce\'c4\'bc\'fe\'d6\'d0\'b6\'c1\'c8\'a1\'b6\'fe\'bd\'f8\'d6\'c6\'ca\'fd\'be\'dd\
+2.\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6NSKeyedUnarchiver\'b6\'d4\'cf\'f3\
+3.\'b6\'d4\'ca\'fd\'be\'dd\'bd\'f8\'d0\'d0\'bd\'e2\'c2\'eb\
+4.\'d6\'b4\'d0\'d0\'cd\'ea\'b3\'c9\'bd\'e2\'c2\'eb\'b2\'d9\'d7\'f7\
+\
+\
+\'d1\'f9\'c0\'fd\'a3\'a8\'c0\'ed\'bd\'e2\'a3\'a9\'a3\'ba\'ca\'b9\'d3\'c3\'b9\'e9\'b5\'b5\'b5\'c4\'b7\'bd\'ca\'bd\'bd\'ab\'bb\'f9\'b1\'be\'b5\'c4\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd\'b4\'e6\'c8\'eb\'ce\'c4\'bc\'fe\
+[Demo01-NSArchiving]\
+NSArray\'a3\'ba\
+\'b9\'a6\'c4\'dc\'a3\'ba\
+\
+a.\'bd\'ab\'ca\'fd\'be\'dd\'d0\'b4\'c8\'eb\'ce\'c4\'bc\'fe\
+\'b9\'e9\'b5\'b5\'b6\'d4\'cf\'f3+\'b1\'e0\'c2\'eb+\'d0\'b4\'c8\'eb\
+b.\'bd\'ab\'d0\'b4\'c8\'eb\'b5\'c4\'ca\'fd\'be\'dd\'b6\'c1\'c8\'a1\
+\'b6\'c1\'c8\'a1+\'bd\'e2\'b5\'b5\'b6\'d4\'cf\'f3+\'bd\'e2\'c2\'eb\
+\
+\'d1\'f9\'c0\'fd\'a3\'a8\'c0\'ed\'bd\'e2\'a3\'a9\'a3\'ba\'ca\'b9\'d3\'c3\'b9\'e9\'b5\'b5\'b5\'c4\'b7\'bd\'ca\'bd\'bd\'ab\'d7\'d4\'b6\'a8\'d2\'e5\'b5\'c4\'c0\'e0\'d0\'cd\'d0\'b4\'c8\'eb\'ce\'c4\'bc\'fe/\'b6\'c1\'c8\'a1/\'d1\'e9\'d6\'a4\
+[Demo02-Archiving-Custom]\
+\'b2\'bd\'d6\'e8\'a3\'ba\
+\'d5\'eb\'b6\'d4\'d3\'da\'d7\'d4\'b6\'a8\'d2\'e5\'c0\'e0Person.h/.m:\
+1.\'b1\'d8\'d0\'eb\'d7\'f1\'ca\'d8NSCoding\'d0\'ad\'d2\'e9\
+2.\'ca\'b5\'cf\'d6\'c1\'bd\'b8\'f6\'d0\'ad\'d2\'e9\'b5\'c4\'b7\'bd\'b7\'a8\'a3\'a8\'b1\'e0\'c2\'eb/\'bd\'e2\'c2\'eb\'a3\'a9\
+2.1 \'b6\'d4\'d7\'d4\'b6\'a8\'d2\'e5\'b5\'c4\'c0\'e0.h\'d6\'d0\'c9\'f9\'c3\'f7\'b5\'c4\'ca\'f4\'d0\'d4\'bd\'f8\'d0\'d0\'b1\'e0\'c2\'eb\'ba\'cd\'bd\'e2\'c2\'eb\
+\
+\'d5\'eb\'b6\'d4\'b5\'f7\'d3\'c3\'b2\'bf\'b7\'d6\
+1.\'b9\'e9\'b5\'b5\'a3\'a8\'d0\'b4\'a3\'a91~5\
+2.\'bd\'e2\'b5\'b5\'a3\'a8\'b6\'c1\'a3\'a91~4\
+\
+\
+\'b6\'e0\'cf\'df\'b3\'cc\'ba\'cd\'cd\'f8\'c2\'e7\'bc\'bc\'ca\'f5\
+\
+\'ca\'f5\'d3\'ef\'a3\'ba\
+\'bd\'f8\'b3\'ccProcess\'a3\'ba\'cf\'b5\'cd\'b3\'d6\'d0\cf2 \'d5\'fd\'d4\'da\'d4\'cb\'d0\'d0\cf0 \'d2\'bb\'b8\'f6\cf2 \'d3\'a6\'d3\'c3\'b3\'cc\'d0\'f2\
+\cf0 \'cc\'d8\'d0\'d4\'a3\'ba\
+1.\'bd\'f8\'b3\'cc\'b2\'bb\'d6\'b4\'d0\'d0\'c8\'ce\'ba\'ce\'b4\'fa\'c2\'eb\'c2\'df\'bc\'ad\'a3\'a8\'d6\'bb\'b7\'d6\'c5\'e4\'d7\'ca\'d4\'b4\'a3\'baCPU/Memory\'a3\'a9\
+\
+\
+Main Thread\'d6\'f7\'cf\'df\'b3\'cc\'a3\'ba\
+1.\'d6\'b4\'d0\'d0\'c8\'ce\'ce\'f1\
+2.\'d2\'bb\'b8\'f6\'d2\'bb\'b8\'f6\'c8\'ce\'ce\'f1\'cb\'b3\'d0\'f2\'d6\'b4\'d0\'d0\cf2 \
+\cf0 \
+\'cf\'df\'b3\'ccThread\'a3\'ba\'ca\'c7\'b3\'cc\'d0\'f2\'b5\'c4\'d2\'bb\'b6\'ce\'d6\'b4\'d0\'d0\'d0\'f2\'c1\'d0\'a3\'ac\'ca\'c7\'bd\'f8\'b3\'cc\'b5\'c4\'d2\'bb\'b2\'bf\'b7\'d6\
+\'cc\'d8\'d0\'d4\'a3\'ba\
+1.\'bf\'c9\'d2\'d4\'d6\'b4\'d0\'d0\'c8\'ce\'ce\'f1\'a3\'a8\'d2\'bb\'b6\'ce\'b4\'fa\'c2\'eb\'d0\'f2\'c1\'d0/\'c2\'df\'bc\'ad\'a3\'a9\
+2.\'c1\'a5\'ca\'f4\'d3\'da\'c4\'b3\'b8\'f6\'bd\'f8\'b3\'cc\'a3\'a8\'bd\'f8\'b3\'cc\'c3\'bb\'d3\'d0\'a3\'ac\'cf\'df\'b3\'cc\'d2\'b2\'b2\'bb\'b4\'e6\'d4\'da\'a3\'a9\
+3.\'d2\'bb\'b8\'f6\'bd\'f8\'b3\'cc\'d6\'c1\'c9\'d9\'d3\'d0\'d2\'bb\'b8\'f6\'cf\'df\'b3\'cc\'a3\'ac\'d6\'c1\'b6\'e0\'b2\'bb\'d2\'bb\'b6\'a8\
+4.\'b8\'f8\'d6\'c1\'c9\'d9\'d3\'d0\'d2\'bb\'b8\'f6\'cf\'df\'b3\'cc\'b5\'c4\'c3\'fb\'d7\'d6\'a3\'ba\'d6\'f7\'cf\'df\'b3\'cc\'a3\'a8Main Thread\'a3\'a9\
+\
+\
+\
+iOS\'d6\'d0\'b5\'c4\'d6\'f7\'cf\'df\'b3\'ccMain Thread\'d4\'f0\'c8\'ce\'b7\'d6\'b9\'a4\'a3\'ba\
+1.\'d3\'c3\'bb\'a7\'ca\'c2\'bc\'fe\'a3\'a8\'b5\'e3\'bb\'f7\'ca\'c2\'bc\'fe\'a3\'bb\'b9\'f6\'b6\'af\'ca\'c2\'bc\'fe\'b5\'c8\'a3\'a9\
+2.\'cf\'d4\'ca\'be/\'cb\'a2\'d0\'c2\'b5\'c4\'ca\'c2\'bc\'fe\'a3\'a8UI\'a3\'a9\
+\
+\'d7\'d3\'cf\'df\'b3\'cc\'b5\'c4\'d4\'f0\'c8\'ce\'b7\'d6\'b9\'a4\'a3\'ba\
+1.\'ba\'c4\'ca\'b1\'b5\'c4\'c8\'ce\'ce\'f1\
+\
+\'d7\'d3\'cf\'df\'b3\'cc\'a3\'ba\'c6\'e4\'cb\'fb\'b7\'c7\'d6\'f7\'cf\'df\'b3\'cc\'a3\'ac\'b6\'bc\'b3\'c9\'ce\'aa\'d7\'d3\'cf\'df\'b3\'cc\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \'b6\'e0\'cf\'df\'b3\'cc\'b2\'a2\'b7\'a2\'a3\'ba\'b6\'e0\'b8\'f6\'cf\'df\'b3\'cc\cf2 \'cd\'ac\'ca\'b1\cf0 \'d6\'b4\'d0\'d0\'b6\'e0\'b8\'f6\'c8\'ce\'ce\'f1\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\'b6\'e0\'b8\'f6\'cf\'df\'b3\'cc\'cc\'d8\'d0\'d4\'a3\'ba\
+1.\'bf\'c9\'d2\'d4\cf2 \'ca\'ca\'b5\'b1\cf0 \'b5\'c4\'cc\'e1\'b8\'df\'b3\'cc\'d0\'f2\'b5\'c4\'d6\'b4\'d0\'d0\'d0\'a7\'c2\'ca\
+2.\'bf\'c9\'d2\'d4\cf2 \'ca\'ca\'b5\'b1\cf0 \'b5\'c4\'cc\'e1\'b8\'df\'d7\'ca\'d4\'b4\'c0\'fb\'d3\'c3\'c2\'ca\
+\
+\'d6\'f7\'cf\'df\'b3\'cc\'ba\'cd\'d7\'d3\'cf\'df\'b3\'cc\'d5\'bc\'d3\'c3\'c4\'da\'b4\'e6\'a3\'ba\
+\'d6\'f7\'cf\'df\'b3\'cc\'a3\'ba1M\'a3\'a8\'ce\'de\'b7\'a8\'b1\'dc\'c3\'e2\'a3\'a9\
+\'d7\'d3\'cf\'df\'b3\'cc\'a3\'ba512KB\
+\
+\'cf\'df\'b3\'cc\'d4\'bd\'b6\'e0\'d4\'bd\'ba\'c3\'a3\'bf\'b2\'bb\'d2\'bb\'b6\'a8\'a3\'a8cpu/\'c4\'da\'b4\'e6\'a3\'a9\
+iOS\'bf\'aa\'b7\'a2\'d6\'d0\'cf\'df\'b3\'cc\'b8\'f6\'ca\'fd\'a3\'ba5\'b8\'f6\'d2\'d4\'cf\'c2\'a3\'a8\'bd\'a8\'d2\'e9\'a3\'a9\
+\
+iOS\'b3\'cc\'d0\'f2\'c6\'f4\'b6\'af\'a3\'ac\'d2\'bb\'b6\'a8\'bb\'e1\'c6\'f4\'b6\'af\'d2\'bb\'b8\'f6\'d6\'f7\'cf\'df\'b3\'cc\
+\
+\'b4\'b4\'bd\'a8\'d7\'d3\'cf\'df\'b3\'cc\'b5\'c4\'b7\'bd\'ca\'bd\'a3\'ba\
+pthread(\'bc\'b8\'ba\'f5\'b2\'bb\'d3\'c3)\
+\'bb\'f9\'d3\'daC\'d3\'ef\'d1\'d4\'b6\'e0\'cf\'df\'b3\'cc\'b5\'c4\'c0\'e0\'a3\'ac\'bf\'c9\'d2\'c6\'d6\'b2\'b5\'c4\'b6\'e0\'cf\'df\'b3\'cc\'b5\'c4\'d3\'a6\'d3\'c3\'a3\'a8windows/MAC/iOS\'a3\'a9\
+\
+\
+NSThread\'a3\'a8\'ba\'dc\'c9\'d9\'ca\'b9\'d3\'c3\'a3\'a9\
+GCD\'a3\'a8\'be\'a1\'c1\'bf\'d5\'c6\'ce\'d5\'a3\'a9\
+NSOperation\'a3\'a8\'be\'a1\'c1\'bf\'d5\'c6\'ce\'d5\'a3\'a9\
+\
+\'d1\'f9\'c0\'fd\'a3\'ba\'ca\'b9\'d3\'c3pthread\'d7\'d3\'cf\'df\'b3\'cc\'ba\'cd\'b2\'bb\'ca\'b9\'d3\'c3\'d7\'d3\'cf\'df\'b3\'cc\'b5\'c4\'c7\'f8\'b1\'f0\
+[Demo03-pthread]\
+\'b9\'a6\'c4\'dc1\'a3\'ba\'b2\'bb\'ca\'b9\'d3\'c3\'d7\'d3\'cf\'df\'b3\'cc\'a3\'a8\'d2\'bb\'b8\'f6\'cf\'df\'b3\'cc\'d6\'b4\'d0\'d0\'c8\'ce\'ce\'f1\'a3\'a9\
+UITextVIew\'a3\'ba\'b9\'f6\'b6\'af\'a3\'a8\'d6\'f7\'cf\'df\'b3\'cc\'a3\'a9\'a1\'aa\'a1\'aa>\'d2\'bb\'b8\'f6\'c8\'ce\'ce\'f1\
+\'c4\'a3\'c4\'e2\'ba\'c4\'ca\'b1\'b5\'c4\'b2\'d9\'d7\'f7\'a3\'a8for\'d1\'ad\'bb\'b7\'a3\'a9\'a1\'aa\'a1\'aa>\'c1\'ed\'d2\'bb\'b8\'f6\'c8\'ce\'ce\'f1\
+\
+\'b9\'a6\'c4\'dc2\'a3\'ba\'ca\'b9\'d3\'c3\'d7\'d3\'cf\'df\'b3\'cc\'a3\'a8\'c1\'bd\'b8\'f6\'cf\'df\'b3\'cc\'d6\'b4\'d0\'d0\'c8\'ce\'ce\'f1\'a3\'a9\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 UITextVIew\'a3\'ba\'b9\'f6\'b6\'af\'a3\'a8\'d6\'f7\'cf\'df\'b3\'cc\'a3\'a9\'a1\'aa\'a1\'aa>\'d2\'bb\'b8\'f6\'c8\'ce\'ce\'f1\
+\'c4\'a3\'c4\'e2\'ba\'c4\'ca\'b1\'b5\'c4\'b2\'d9\'d7\'f7\'a3\'a8for\'d1\'ad\'bb\'b7\'a3\'a9\'a1\'aa\'a1\'aa>\'c1\'ed\'d2\'bb\'b8\'f6\'c8\'ce\'ce\'f1\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\'d6\'f7\'cf\'df\'b3\'cc\'d7\'e8\'c8\'fb\'a3\'ba\'d3\'d0\'ba\'c4\'ca\'b1\'b5\'c4\'b2\'d9\'d7\'f7\'d4\'da\'d5\'bc\'d3\'c3\'d6\'f7\'cf\'df\'b3\'cc\'a3\'a8\'bf\'a8\'a3\'a9\
+\
+\
+\'d7\'dc\'bd\'e1\'a3\'ba\
+\'d6\'f7\'cf\'df\'b3\'cc\'b7\'d6\'b9\'a4\
+1.\'cf\'ec\'d3\'a6\'d3\'c3\'bb\'a7\'b5\'c4\'ca\'c2\'bc\'fe\
+2.UI\'bd\'e7\'c3\'e6\'b5\'c4\'cb\'a2\'d0\'c2/\'bc\'d3\'d4\'d8\'ca\'fd\'be\'dd\'a3\'a8UIImageView\'a3\'bbUILabel\'a3\'bbUITableView\'b5\'c8\'a1\'aa\'a1\'aa>UIKit Framework\'bf\'d8\'d6\'c6\'cf\'e0\'b9\'d8\'b5\'c4\'b2\'d9\'d7\'f7\'a3\'a9\
+\
+\
+\'d7\'d3\'cf\'df\'b3\'cc\'b7\'d6\'b9\'a4\'a3\'ba\
+\'d7\'f6\'ba\'c4\'ca\'b1\'b2\'d9\'d7\'f7\'a3\'a8\'cf\'c2\'d4\'d8\'cd\'bc\'c6\'ac/\'ce\'c4\'bc\'fe/\'d2\'f4\'c6\'b5/\'ca\'d3\'c6\'b5\'a3\'a9\
+\
+\
+\
+NSThread:\
+\'d3\'c5\'b5\'e3\'a3\'ba\'c3\'e6\'cf\'f2\'b6\'d4\'cf\'f3\'b5\'c4\'a3\'ac\'bb\'f9\'d3\'daOC\'d3\'ef\'d1\'d4\
+\'c8\'b1\'b5\'e3\'a3\'ba\'ca\'d6\'b6\'af\'b5\'c4\'b9\'dc\'c0\'ed\'cf\'df\'b3\'cc\'b5\'c4\'d5\'fb\'b8\'f6\'c9\'fa\'c3\'fc\'d6\'dc\'c6\'da\'a3\'a8\'c9\'fa/\'cb\'c0\'a3\'a9\'a3\'bb\'cf\'df\'b3\'cc\'cd\'ac\'b2\'bd\'a3\'bb\'ca\'d6\'b6\'af\'bc\'d3\'cb\'f8/\'bd\'e2\'cb\'f8\
+\
+\'bc\'c7\'d7\'a1\'cf\'c2\'c3\'e6\'b5\'c4\'c1\'bd\'b8\'f6\'b7\'bd\'b7\'a8\'a3\'ba\
+1.\'c8\'e7\'ba\'ce\'b4\'b4\'bd\'a8NSThread\'c0\'e0\'d0\'cd\'b5\'c4\'d7\'d3\'cf\'df\'b3\'cc\'a3\'a8\'c8\'fd\'d6\'d6\'b7\'bd\'ca\'bd\'a3\'ba\'d5\'c6\'ce\'d5\'b5\'da\'d2\'bb\'d6\'d6\'a3\'a9\
+2.\'d1\'e9\'d6\'a4\'b5\'b1\'c7\'b0\'b5\'c4\'cf\'df\'b3\'cc\'ca\'c7\'c4\'c4\'b8\'f6\'a3\'a8\'d6\'f7\'cf\'df\'b3\'cc/\'d7\'d3\'cf\'df\'b3\'cc\'a3\'a9\
+\pard\tx1733\pardeftab1733\pardirnatural
+
+\f2 \cf0 \CocoaLigature0 [\cf3 NSThread\cf0  \cf4 currentThread\cf0 ]
+\f1 \'a3\'bb\CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\'d1\'f9\'c0\'fd\'a3\'ba\'b4\'b4\'bd\'a8NSThread\'c0\'e0\'d0\'cd\'b5\'c4\'d7\'d3\'cf\'df\'b3\'cc\
+[Demo04-NSThread]\
+\'c8\'fd\'d6\'d6\'b7\'bd\'ca\'bd\'a3\'a8UIButton\'a3\'a9\
+\
+\
+\pard\tx1733\pardeftab1733\pardirnatural
+
+\f2 \cf0 \CocoaLigature0 [\cf3 NSThread\cf0  \cf4 currentThread\cf0 ]
+\f1 \'a3\'ba\CocoaLigature1 \
+\pard\tx1733\pardeftab1733\pardirnatural
+
+\f2\fs60 \cf0 \CocoaLigature0 \{number = 1, name = main\}:
+\f1 \'d6\'f7\'cf\'df\'b3\'cc\'a3\'a8number\'b5\'c8\'d3\'da1\'a3\'a9
+\fs72 \CocoaLigature1 \
+
+\f2\fs60 \CocoaLigature0 \{number = 3, name = (null)\}
+\f1 \'a3\'ba\'d7\'d3\'cf\'df\'b3\'cc\'a3\'a8number\'b2\'bb\'b5\'c8\'d3\'da1\'a3\'a9
+\fs72 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\
+\
+}
